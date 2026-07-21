@@ -17,9 +17,7 @@ public class Pattern_printing17 {
                 System.out.print("  ");
             }
             for(int col = 1; col <= (2 * n - 1) - 2 * (row - 1); col++){
-//                if( col == 1){
-//                    continue;
-//                }
+
                 System.out.print("* ");
             }
             System.out.println();

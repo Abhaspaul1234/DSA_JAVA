@@ -1,4 +1,4 @@
-public class Pattern_printing20 {
+public class Pattern_printing19 {
     static void main() {
 
         int n = 4;
@@ -8,11 +8,7 @@ public class Pattern_printing20 {
                 System.out.print("  ");
             }
             for(int col = 1; col <= 2 * row - 1; col++){
-                if(col <= row){
-                    System.out.print((char)('A' + (col - 1)) + " ");
-                }
-                else
-                    System.out.print((char)('A' + (2 * row - col) - 1) + " ");
+                System.out.print(row + " ");
             }
             System.out.println();
         }
