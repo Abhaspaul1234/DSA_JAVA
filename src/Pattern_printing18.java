@@ -11,12 +11,9 @@ public class Pattern_printing18 {
                 if (col <= row) {
                     System.out.print(col + " ");
                 }
-            }
-            for(int col = 1; col <= 2 * row - col; col++) {
-                if (col <= row) {
-                    System.out.print(col + " ");
-                }
-            }
+               else
+                    System.out.print(2 * row - col + " ");
+           }
             System.out.println();
         }
     }
