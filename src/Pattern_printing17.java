@@ -1,0 +1,28 @@
+public class Pattern_printing17 {
+    static void main() {
+
+        int n = 4;
+
+        for(int row = 1; row <= n; row++){
+            for(int col = 1; col <= row - 1; col++){
+                System.out.print("  ");
+            }
+            for(int col = 1; col <= (2 * n - 1) - 2 * (row - 1); col++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+        for(int row = n - 1; row >= 1; row--){
+            for(int col = 1; col <= row - 1; col++){
+                System.out.print("  ");
+            }
+            for(int col = 1; col <= (2 * n - 1) - 2 * (row - 1); col++){
+//                if( col == 1){
+//                    continue;
+//                }
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
